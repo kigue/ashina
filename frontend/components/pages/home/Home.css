@@ -1,0 +1,119 @@
+.hero-section {
+    overflow: hidden; /* Ensure no spillover */
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Viewport Height */
+  }
+  
+  .content-flex-grow {
+    flex-grow: 1;
+  }
+  
+
+.hero-image {
+    width: 100%; /* Fill the width */
+    height: auto;
+}
+
+.hero-text {
+    position: absolute; 
+    top: 10%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Ensure it's centered */
+    color: black; /* White text on the image, can adjust as needed */
+    z-index: 1; /* Place text above the image */
+}
+
+.hero-text2 {
+    position: absolute; 
+    color: black; /* White text on the image, can adjust as needed */
+    z-index: 1; /* Place text above the image */
+}
+
+.hero-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-subtext {
+    font-size: 1.2em;
+}
+
+
+.section {
+    min-height: 100vh; /* Make each section take at least the full viewport height */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition for opacity and transform */
+    opacity: 0; /* Start with sections hidden */
+    transform: translateY(50px); /* Slightly translate sections down */
+}
+  
+.visible {
+    opacity: 1; /* Make section fully visible when in viewport */
+    transform: translateY(0); /* Reset translation when section is active */
+}
+  
+.scroll-snap-container {
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
+.snap-section {
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+/* Style for the second section with a green background */
+.second-section {
+    background-color: green; /* Set a green background */
+    color: white; /* Assuming white text for better contrast */
+    padding-top: 20px; /* Add some space at the top */
+}
+
+/* Style for the title at the top of the section */
+.section-title {
+    text-align: center;
+    margin-bottom: 25px; /* Space below the title */
+}
+
+
+.hero-image-container {
+    position: relative;
+}
+
+.overlay-cards-container {
+    position: absolute;
+    top: 13%;
+    left: 5%;
+    width: 90%;
+    padding: 20px; /* Adjust as needed */
+    /* Optional: Use a semi-transparent background if needed */
+}
+
+.marketplace-header {
+    position: absolute;
+    top: 2%; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    color: beige; /* Choose a color that contrasts with your image */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.hidden {
+    display: none; /* Hides the section */
+}
+
+.visible {
+    display: block; /* Shows the section */
+}
+
+.ashina-farms-header {
+    padding: 20px;
+    text-align: center;
+}

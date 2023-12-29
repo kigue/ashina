@@ -1,0 +1,44 @@
+.custom-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1020; 
+    height: 70px;/* Ensures the navbar stays on top of other content */
+}
+  .navbar-brand-custom {
+    font-size: 30px; /* Larger and bolder font size */
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 10px;
+  }
+  
+  .search-input {
+    width: 120%; /* Longer search bar */
+    max-width: 800px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: beige;
+  }
+  
+  .navbar-end-section .connect-button {
+    /* Custom styles for the connect button to resemble Internet Computer's UI */
+    background-color: darkgreen;
+    width: 50%;
+    color:  beige;
+    border-radius: 5px;
+    padding: 10px 15px;
+    max-width: 200px;
+    font-size: 16px;
+    font-weight: bold;
+    border: solid;
+    border-color: beige;
+  }
+  
+  .navbar-end-section .connect-button:hover {
+    background-color: #03a1d1; /* Darker shade for hover state */
+  }
+  

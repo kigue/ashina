@@ -1,0 +1,31 @@
+.navbar-brand-custom {
+  font-size: 22px;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.nav-dropdown-custom {
+  font-size: 16px;
+}
+
+.search-bar-custom {
+  display: flex;
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.search-input-custom {
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+}
+
+.connect-button-custom {
+  margin-right: 20px;
+}
+
+.cart-icon-custom {
+  color: black;
+  font-weight: bolder;
+}
