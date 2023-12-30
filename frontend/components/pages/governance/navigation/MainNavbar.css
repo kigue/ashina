@@ -1,0 +1,22 @@
+/* MainNavbar.css */
+
+.nav-dropdown-custom .dropdown-toggle {
+  color: white; /* Text color of the dropdown title */
+  background-color: transparent; /* Background of the dropdown title */
+  border: none; /* Removing border */
+}
+
+.nav-dropdown-custom .dropdown-menu {
+  background-color: #004225; /* Background color of the dropdown items */
+}
+
+.nav-dropdown-custom .dropdown-item {
+  color: white; /* Text color of the dropdown items */
+}
+
+.nav-dropdown-custom .dropdown-item:hover, .nav-dropdown-custom .dropdown-item:focus {
+  color: #c9f2c7; /* Text color of the dropdown items on hover/focus */
+  background-color: #023819; /* Background color of the dropdown items on hover/focus */
+}
+
+/* Additional styles for other navigation elements can be added here */

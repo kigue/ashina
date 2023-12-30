@@ -1,0 +1,33 @@
+/* Team.css */
+.team-container {
+    background-color: beige; /* Example green background */
+    padding: 30px 0;
+    color: #ffffff; /* Adjust text color for readability */
+}
+
+.team-header {
+    color: beige; /* White text for visibility */
+    text-align: center;
+}
+
+.team-intro {
+    color: #d7f4d7; /* Lighter green or white for visibility */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.team-card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.team-card .card-body {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+}
+
+/* Add more custom styling as needed */
